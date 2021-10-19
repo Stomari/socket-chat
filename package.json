@@ -1,0 +1,24 @@
+{
+  "name": "socket-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henriqueinonhe/socket-chat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henriqueinonhe/socket-chat/issues"
+  },
+  "homepage": "https://github.com/henriqueinonhe/socket-chat#readme",
+  "devDependencies": {
+    "husky": "^7.0.2"
+  }
+}
