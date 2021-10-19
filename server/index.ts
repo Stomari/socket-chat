@@ -1,3 +1,5 @@
+/* eslint-disable import/extensions */
+/* eslint-disable import/no-unresolved */
 import { createServer } from 'http';
 import { Server, Socket } from 'socket.io';
 import dotenv from 'dotenv';
@@ -9,9 +11,7 @@ dotenv.config();
 const httpServer = createServer();
 const io = new Server(httpServer, {
   cors: {
-    origin: [
-      'http://localhost:3001',
-    ],
+    origin: ['http://localhost:3001'],
   },
 });
 
